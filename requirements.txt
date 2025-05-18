@@ -1,1 +1,4 @@
-pip install streamlit google-cloud-vision google-cloud-translate Pillow
+streamlit>=1.30.0
+google-cloud-vision>=3.5.2
+google-cloud-translate>=3.11.0
+Pillow>=10.2.0
