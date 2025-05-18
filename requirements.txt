@@ -1,0 +1,1 @@
+pip install streamlit google-cloud-vision google-cloud-translate Pillow
