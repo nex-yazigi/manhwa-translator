@@ -1,3 +1,12 @@
+pip install google-cloud-vision google-cloud-translate
+pip install google-cloud-vision==3.5.3 google-cloud-translate==3.10.0
+pip install streamlit pillow
+pip install --upgrade pip setuptools wheel
+pip install grpcio --only-binary :all:
+python -c "import streamlit, google.cloud.vision, google.cloud.translate, PIL; print('All good!')"
+
+
+
 import streamlit as st
 from google.cloud import vision
 from google.cloud import translate_v2 as translate
